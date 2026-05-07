@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ls /Users/minduli/TRC/LambertPy/plot_stage2*.py)",
+      "Bash(python3 -c ':*)",
+      "Bash(python check_label_closure.py --npz datasets/train_struct_jupiter.npz --body jupiter --max-step 60.0)"
+    ]
+  }
+}

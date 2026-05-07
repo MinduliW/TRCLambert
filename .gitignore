@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+build/
+dist/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors / IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Datasets and trained weights — large, regenerable, do not commit
+*.mat
+*.pt
+*.pth
+*.npz
+*.npy
+*.h5
+*.hdf5
+
+# Generated artifacts
+checkpoints/
+plots/
+tables/
+*.BACKUP_*
+
+# Subproject heavies (regenerate via DataGeneration/ scripts)
+LambertPy/checkpoints/
+LambertPy/datasets/
+LambertPy/plots/
+DataGeneration/data/
+DataGeneration/plots/
+DataGeneration/tables/
